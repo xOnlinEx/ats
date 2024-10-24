@@ -1,3 +1,14 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1e1e2e;
+}
+.title{
+    color: #cdd6f4;
+}
 .grid-container {
     width: 300px;
     display: grid;
