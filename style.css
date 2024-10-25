@@ -12,14 +12,14 @@ body{
 .grid-container {
     width: 300px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
-    grid-template-rows: repeat(3, auto); /* 3 filas */
-    gap: 10px; /* Espacio entre imágenes */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
 }
 
 .grid-container img {
-    width: 100%; /* Las imágenes ocuparán el ancho completo de su celda */
-    height: auto; /* Mantiene la proporción de las imágenes */
+    width: 100%;
+    height: auto;
 }
 .item{
     cursor: pointer;
